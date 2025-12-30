@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - MLBB Pro Guides | Contact Us</title>
+    <meta name="description"
+        content="Learn about MLBB Pro Guides, created by a passionate Mobile Legends player from the Philippines. Contact us for business inquiries.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Rajdhani:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .about-section {
+            padding: 120px 20px 60px;
+        }
+
+        .about-card {
+            max-width: 700px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border);
+            padding: 40px;
+            text-align: center;
+        }
+
+        .about-avatar {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 25px;
+            border-radius: 50%;
+            background: var(--gradient-1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            box-shadow: 0 0 40px var(--primary-glow);
+        }
+
+        .about-card h1 {
+            margin-bottom: 10px;
+        }
+
+        .about-card .tagline {
+            color: var(--text-muted);
+            margin-bottom: 25px;
+        }
+
+        .about-info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin: 30px 0;
+            text-align: left;
+        }
+
+        .info-row {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px 20px;
+            background: var(--bg-card-hover);
+            border-radius: var(--radius);
+        }
+
+        .info-row .icon {
+            font-size: 1.5rem;
+        }
+
+        .info-row .label {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        .info-row .value {
+            font-weight: 600;
+        }
+
+        .info-row a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .info-row a:hover {
+            text-decoration: underline;
+        }
+
+        .social-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .social-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 25px;
+            border-radius: var(--radius);
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .social-btn.youtube {
+            background: linear-gradient(135deg, #ff0000, #cc0000);
+            color: white;
+        }
+
+        .social-btn.discord {
+            background: linear-gradient(135deg, #5865F2, #7289DA);
+            color: white;
+        }
+
+        .social-btn.email {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            color: white;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-3px);
+        }
+
+        .support-section {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid var(--border);
+        }
+
+        .support-section h3 {
+            margin-bottom: 15px;
+        }
+
+        .support-section p {
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-animation">
+        <div class="bg-gradient"></div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><span>⚔️</span><span class="logo-text">MLBB<span
+                        class="accent">PRO</span></span></a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="tier-list.html" class="nav-link">Tier List</a></li>
+                <li><a href="heroes.html" class="nav-link">Heroes</a></li>
+                <li><a href="builds.html" class="nav-link">Builds</a></li>
+            </ul>
+            <a href="index.html#topup" class="btn btn-glow">💎 Top Up</a>
+        </div>
+    </nav>
+
+    <section class="about-section">
+        <div class="about-card">
+            <div class="about-avatar">🎮</div>
+            <h1>About <span class="gradient-text">MLBB Pro</span></h1>
+            <p class="tagline">Created by a passionate Mobile Legends player from the Philippines 🇵🇭</p>
+
+            <div class="about-info">
+                <div class="info-row">
+                    <span class="icon">🎮</span>
+                    <div>
+                        <div class="label">My MLBB Player ID</div>
+                        <div class="value">1344116457</div>
+                    </div>
+                </div>
+                <div class="info-row">
+                    <span class="icon">🌍</span>
+                    <div>
+                        <div class="label">Location</div>
+                        <div class="value">Philippines 🇵🇭</div>
+                    </div>
+                </div>
+                <div class="info-row">
+                    <span class="icon">📺</span>
+                    <div>
+                        <div class="label">YouTube Channel</div>
+                        <div class="value"><a href="https://www.youtube.com/@TheHistoryCode125"
+                                target="_blank">@TheHistoryCode125</a></div>
+                    </div>
+                </div>
+                <div class="info-row">
+                    <span class="icon">💬</span>
+                    <div>
+                        <div class="label">Discord Server</div>
+                        <div class="value"><a href="https://discord.gg/K3JYAMU" target="_blank">discord.gg/K3JYAMU</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-row">
+                    <span class="icon">📧</span>
+                    <div>
+                        <div class="label">Business Inquiries</div>
+                        <div class="value"><a href="mailto:thehistorycode@proton.me">thehistorycode@proton.me</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-buttons">
+                <a href="https://www.youtube.com/@TheHistoryCode125" target="_blank" class="social-btn youtube">
+                    <span>▶️</span> Subscribe
+                </a>
+                <a href="https://discord.gg/K3JYAMU" target="_blank" class="social-btn discord">
+                    <span>💬</span> Join Discord
+                </a>
+                <a href="mailto:thehistorycode@proton.me" class="social-btn email">
+                    <span>📧</span> Email Me
+                </a>
+            </div>
+
+            <div class="support-section">
+                <h3>Support This Project ❤️</h3>
+                <p>This site is completely free. If you find it helpful, subscribe to my YouTube and share with your
+                    squad! For business inquiries, sponsorships, or collaborations, email me!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand"><span>⚔️</span> MLBB<span class="accent">PRO</span>
+                    <p>Made with ❤️ in the Philippines</p>
+                </div>
+                <div class="footer-links">
+                    <a href="tier-list.html">Tier List</a>
+                    <a href="heroes.html">Heroes</a>
+                    <a href="builds.html">Builds</a>
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+            <div style="text-align:center;margin:20px 0;display:flex;gap:20px;justify-content:center;flex-wrap:wrap;">
+                <a href="https://www.youtube.com/@TheHistoryCode125" target="_blank"
+                    style="color:#ff0000;text-decoration:none;font-weight:600;">▶️ YouTube</a>
+                <a href="https://discord.gg/K3JYAMU" target="_blank"
+                    style="color:#5865F2;text-decoration:none;font-weight:600;">💬 Discord</a>
+                <a href="mailto:thehistorycode@proton.me"
+                    style="color:var(--primary);text-decoration:none;font-weight:600;">📧 Business</a>
+            </div>
+            <p class="copyright">&copy; 2024 MLBB Pro Guides. Not affiliated with Moonton.</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

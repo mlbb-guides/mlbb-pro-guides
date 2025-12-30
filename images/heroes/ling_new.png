@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>User: arn:aws:iam::392608220175:user/moonton-web is not authorized to perform: s3:ListBucket on resource: "arn:aws:s3:::moonton-web" because no identity-based policy allows the s3:ListBucket action</Message><RequestId>ERABJRF9R0GENX7S</RequestId><HostId>22DowLZXOr2Ye0G/EF/HDxPlDBdYQd/OEMXitX2MZCCStHCF8CFezmIX1SjF+WJmq8R5ruwcBcsaJH4dEzPJp/ZjbK9yoBVv</HostId></Error>

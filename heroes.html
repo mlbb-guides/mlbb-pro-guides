@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>All MLBB Heroes - Complete Hero List with Roles & Win Rates | MLBB Pro</title>
+    <meta name="description"
+        content="Browse all 120+ Mobile Legends heroes. Filter by role - Tank, Fighter, Assassin, Mage, Marksman, Support. See win rates and tier rankings!">
+    <meta name="keywords"
+        content="MLBB heroes, Mobile Legends heroes list, all heroes MLBB, hero roles, tank heroes, fighter heroes, assassin heroes">
+    <link rel="canonical" href="https://mlbbpro.com/heroes.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="All MLBB Heroes - Complete Hero Database">
+    <meta property="og:description" content="Browse all Mobile Legends heroes with roles, win rates, and tier info.">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Rajdhani:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="bg-animation">
+        <div class="bg-gradient"></div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><span>⚔️</span><span class="logo-text">MLBB<span
+                        class="accent">PRO</span></span></a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="tier-list.html" class="nav-link">Tier List</a></li>
+                <li><a href="heroes.html" class="nav-link active">Heroes</a></li>
+                <li><a href="builds.html" class="nav-link">Builds</a></li>
+            </ul>
+            <a href="index.html#topup" class="btn btn-glow">💎 Top Up</a>
+        </div>
+    </nav>
+
+    <section class="tier-section">
+        <div class="container">
+            <header class="page-header" style="text-align:center; margin-bottom:30px;">
+                <h1>All <span class="gradient-text">Heroes</span></h1>
+                <p style="color:var(--text-muted);">Click any hero to view their recommended build</p>
+            </header>
+
+            <!-- Search -->
+            <div class="search-box">
+                <input type="text" placeholder="Search heroes..." id="heroSearch">
+            </div>
+
+            <!-- Role Filters -->
+            <div class="filters">
+                <button class="filter-btn active" data-role="all">All</button>
+                <button class="filter-btn" data-role="tanks">🛡️ Tank</button>
+                <button class="filter-btn" data-role="fighters">⚔️ Fighter</button>
+                <button class="filter-btn" data-role="assassins">🗡️ Assassin</button>
+                <button class="filter-btn" data-role="marksmen">🏹 Marksman</button>
+                <button class="filter-btn" data-role="mages">🔮 Mage</button>
+                <button class="filter-btn" data-role="supports">💚 Support</button>
+            </div>
+
+            <!-- Heroes Grid -->
+            <div class="heroes-grid" id="heroesGrid"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand"><span>⚔️</span> MLBB<span class="accent">PRO</span>
+                    <p>The ultimate MLBB resource</p>
+                </div>
+                <div class="footer-links"><a href="tier-list.html">Tier List</a><a href="heroes.html">Heroes</a><a
+                        href="builds.html">Builds</a></div>
+            </div>
+            <p class="copyright">&copy; 2024 MLBB Pro Guides. Not affiliated with Moonton.</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    <script>
+        initHeroesGrid();
+        setupFilters();
+        setupSearch();
+    </script>
+</body>
+
+</html>
