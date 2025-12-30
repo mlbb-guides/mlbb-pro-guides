@@ -1,10 +1,10 @@
 // ===== HERO DATA WITH OFFICIAL MLBB API IMAGES =====
 // Source: https://mapi.mobilelegends.com/hero/list (Official Moonton API)
-// Last Updated: Season 35 (December 2024 / January 2025)
+// Last Updated: Season 35 (January 2025 / January 2025)
 // Patch: 1.9.42 (The "Sky Piercer" & "Suyou" Update)
 
 const PATCH_VERSION = "1.9.42";
-const LAST_UPDATED = "Dec 30, 2024";
+const LAST_UPDATED = "Jan 1, 2025";
 
 // Helper for heroes not yet in API (Suyou, Zhuxin)
 const getAvatar = (name, color) => {
