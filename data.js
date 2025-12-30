@@ -1,21 +1,22 @@
 // ===== HERO DATA WITH OFFICIAL MLBB API IMAGES =====
+// Source: https://mapi.mobilelegends.com/hero/list (Official Moonton API)
 // Last Updated: Season 35 (December 2024 / January 2025)
 // Patch: 1.9.42 (The "Sky Piercer" & "Suyou" Update)
 
 const PATCH_VERSION = "1.9.42";
 const LAST_UPDATED = "Dec 30, 2024";
 
-// Helper for broken images
+// Helper for heroes not yet in API (Suyou, Zhuxin)
 const getAvatar = (name, color) => {
     const bg = color ? color.replace('#', '') : '333';
     return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=${bg}&color=fff&size=128&bold=true&font-size=0.4`;
 };
 
 const HEROES_DATA = {
-    // ===== TANKS =====
+    // ===== TANKS (All Official API URLs) =====
     tanks: [
         { name: "Tigreal", tier: "S", winRate: 54.2, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_23a7a603ff9d20074777d52e2eb202f3.jpg", color: "#3a86ff" },
-        { name: "Minotaur", tier: "S", winRate: 53.8, img: "https://akmweb.youngjoygame.com/web/madmin/image/8f566f9d65882193b2df785d0d1c76e1.jpg", color: "#e63946" },
+        { name: "Minotaur", tier: "S", winRate: 53.8, img: "https://akmweb.youngjoygame.com/web/madmin/image/1ec5d92a9e0981838a6b362cd21cbdb0.jpg", color: "#e63946" },
         { name: "Khufra", tier: "A", winRate: 52.1, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_398cd0a73db63a4b098ab28de5953a0d.png", color: "#7209b7" },
         { name: "Atlas", tier: "A", winRate: 51.5, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_a2f68d5c30c0198006b2c85b7a5cb48b.png", color: "#4361ee" },
         { name: "Franco", tier: "A", winRate: 50.8, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_07605801972ede9147e9769ac7991aa0.png", color: "#8338ec" },
@@ -23,9 +24,9 @@ const HEROES_DATA = {
         { name: "Hylos", tier: "S", winRate: 55.4, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_f3ddb1088279d711417234034024223d.png", color: "#06d6a0" },
     ],
 
-    // ===== FIGHTERS =====
+    // ===== FIGHTERS (Official API URLs + Suyou Fallback) =====
     fighters: [
-        { name: "Suyou", tier: "S+", winRate: 58.2, img: getAvatar("Suyou", "#ef233c"), color: "#ef233c" }, // 403 Fix
+        { name: "Suyou", tier: "S+", winRate: 58.2, img: getAvatar("Suyou", "#ef233c"), color: "#ef233c" }, // Not in API yet
         { name: "Cici", tier: "S", winRate: 54.5, img: "https://akmweb.youngjoygame.com/web/madmin/image/bc77a45f649d36befd844b767a0b66e2.png", color: "#fb8500" },
         { name: "Arlott", tier: "S", winRate: 53.1, img: "https://akmweb.youngjoygame.com/web/madmin/image/bd640274b1595c6713c5c360c458a740.png", color: "#d90429" },
         { name: "Yu Zhong", tier: "A", winRate: 51.9, img: "https://akmweb.youngjoygame.com/web/madmin/image/d53f0e10d58b1841219073c026febc51.jpg", color: "#ffd60a" },
@@ -34,7 +35,7 @@ const HEROES_DATA = {
         { name: "Chou", tier: "A", winRate: 50.4, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_a3dd4a2b8bd5b8f25a8dd520f2c1c71a.png", color: "#ff6b35" },
     ],
 
-    // ===== ASSASSINS =====
+    // ===== ASSASSINS (All Official API URLs) =====
     assassins: [
         { name: "Ling", tier: "S", winRate: 55.2, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_cdbe15a03ad4518f37d89c9e1cbf5c4e.png", color: "#9d4edd" },
         { name: "Hayabusa", tier: "S", winRate: 54.7, img: "https://akmweb.youngjoygame.com/web/madmin/image/3de2f55e701a340a02f1828e79cdb9fa.png", color: "#e63946" },
@@ -45,29 +46,29 @@ const HEROES_DATA = {
         { name: "Saber", tier: "A", winRate: 51.2, img: "https://akmweb.youngjoygame.com/web/madmin/image/35a5d68d1704e2c4c6323abd4859a622.jpg", color: "#0077b6" },
     ],
 
-    // ===== MARKSMEN =====
+    // ===== MARKSMEN (All Official API URLs) =====
     marksmen: [
-        { name: "Roger", tier: "S", winRate: 55.8, img: "https://akmweb.youngjoygame.com/web/madmin/image/09a93077e6821815e1284d72023537dc.png", color: "#7209b7" },
-        { name: "Harith", tier: "S", winRate: 54.5, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_ef028e37e96860ce3976865d491176b5.jpg", color: "#4361ee" },
-        { name: "Claude", tier: "S", winRate: 53.2, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_84717154238e8cb222045e05391307b9.jpg", color: "#fb8500" },
+        { name: "Roger", tier: "S", winRate: 55.8, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_d2f1ce4289d7399177b7f8a25bdf593d.png", color: "#7209b7" },
+        { name: "Harith", tier: "S", winRate: 54.5, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_6df4352d8f0d6ce429ad308d323c6206.png", color: "#4361ee" },
+        { name: "Claude", tier: "S", winRate: 53.2, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_99318a0a409d80f0f2d4b47ee63b6bda.png", color: "#fb8500" },
         { name: "Beatrix", tier: "A", winRate: 52.8, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_bc9478f69dafbf6ff27d8e19899637ca.png", color: "#00b4d8" },
         { name: "Wanwan", tier: "A", winRate: 51.5, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_d744e6f02ba1d9b5f246a5532cc2b201.png", color: "#fb8500" },
         { name: "Moskov", tier: "S", winRate: 53.5, img: "https://akmweb.youngjoygame.com/web/madmin/image/2f37c7bb49843330b8b972f11b60da08.png", color: "#7209b7" },
         { name: "Layla", tier: "B", winRate: 50.2, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_a05a03db633cc03ef3f733d2786073c4.jpg", color: "#f72585" },
     ],
 
-    // ===== MAGES =====
+    // ===== MAGES (Official API URLs + Zhuxin Fallback) =====
     mages: [
-        { name: "Zhuxin", tier: "S+", winRate: 56.5, img: getAvatar("Zhuxin", "#7209b7"), color: "#7209b7" }, // 403 Fix
+        { name: "Zhuxin", tier: "S+", winRate: 56.5, img: getAvatar("Zhuxin", "#7209b7"), color: "#7209b7" }, // Not in API yet
         { name: "Valentina", tier: "S", winRate: 54.2, img: "https://akmweb.youngjoygame.com/web/madmin/image/3fcfa9c74ac47800a3e13a5985d76e55.png", color: "#ff006e" },
-        { name: "Vexana", tier: "S", winRate: 53.8, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_f4865d21463e2646d655f4c4a4f8997a.jpg", color: "#38b000" },
+        { name: "Vexana", tier: "S", winRate: 53.8, img: "https://akmweb.youngjoygame.com/web/madmin/image/2334082b961a77941bc0f87e598bfabb.png", color: "#38b000" },
         { name: "Novaria", tier: "S", winRate: 53.1, img: "https://akmweb.youngjoygame.com/web/madmin/image/233e528d55a4c6083bd914c2768ac50d.png", color: "#4cc9f0" },
         { name: "Kagura", tier: "A", winRate: 51.5, img: "https://akmweb.youngjoygame.com/web/madmin/image/b7bedaacdacd3de349e538f72fe640c9.png", color: "#06d6a0" },
         { name: "Nana", tier: "A", winRate: 52.5, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_08d0332be76ff7bdd894f7c7227be56c.png", color: "#ffd60a" },
         { name: "Eudora", tier: "B", winRate: 50.1, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_ed32e3c71ecd41652fc54a7efd02aba4.jpg", color: "#0077b6" },
     ],
 
-    // ===== SUPPORTS =====
+    // ===== SUPPORTS (All Official API URLs) =====
     supports: [
         { name: "Mathilda", tier: "S", winRate: 55.4, img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_74d09f52db9256502ecf2c32211a8102.jpg", color: "#00b4d8" },
         { name: "Chip", tier: "S", winRate: 54.8, img: "https://akmweb.youngjoygame.com/web/madmin/image/2daca928703774862b329074220fe7cd.png", color: "#d90429" },
@@ -144,7 +145,7 @@ const ITEMS = {
     "Fleeting Time": { icon: "⏳", type: "magic" },
 };
 
-// ===== BUILDS DATA (META S35) =====
+// ===== BUILDS DATA (META S35) - All Official API Images =====
 const BUILDS_DATA = {
     "Suyou": {
         role: "Fighter/Assassin",
@@ -155,7 +156,7 @@ const BUILDS_DATA = {
         tips: "New S-Tier Jungler. Tap S1 to chase, Hold S1 to stun. Sky Piercer executes low HP enemies.",
         counters: ["Phoveus", "Khufra"],
         counteredBy: ["Heavy CC", "Burst"],
-        img: getAvatar("Suyou", "#ef233c") // 403 Fix
+        img: getAvatar("Suyou", "#ef233c")
     },
     "Zhuxin": {
         role: "Mage",
@@ -166,7 +167,7 @@ const BUILDS_DATA = {
         tips: "Spam S2 to grab enemies. Wishing Lantern burn + Glowing Wand melts tanks. Mana management is key.",
         counters: ["Immobile Tanks", "Melee Fighters"],
         counteredBy: ["Ling", "Fanny", "Sprint users"],
-        img: getAvatar("Zhuxin", "#7209b7") // 403 Fix
+        img: getAvatar("Zhuxin", "#7209b7")
     },
     "Chip": {
         role: "Support/Tank",
@@ -221,7 +222,7 @@ const BUILDS_DATA = {
         tips: "Hybrid built with new Thunder Belt stacks. Sky Piercer helps secure kills with passive grid proc.",
         counters: ["Wanwan", "Claude"],
         counteredBy: ["Long range mages"],
-        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_324e2b04393700944b2b54f2f6c939b5.jpg"
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_3d40bca69a0e8ef0ac5f0bc49d49f7f0.png"
     },
     "Novaria": {
         role: "Mage",
