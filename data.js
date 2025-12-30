@@ -632,5 +632,449 @@ const BUILDS_DATA = {
         counters: ["Squishy targets", "Medium range"],
         counteredBy: ["Dive assassins", "Long range mages"],
         img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_3d40bca69a0e8ef0ac5f0bc49d49f7f0.png"
+    },
+
+    // ========== MORE ASSASSINS ==========
+    "Gusion": {
+        role: "Assassin",
+        difficulty: "Very Hard",
+        emblem: "Assassin - Killing Spree",
+        spell: "Retribution",
+        items: ["Magic Shoes", "Starlium Scythe", "Genius Wand", "Holy Crystal", "Divine Glaive", "Blood Wings"],
+        tips: "Master the dagger recall mechanic. S1>S2>S1(recall)>S2(recall) is the burst combo. High APM required.",
+        counters: ["Squishy mages", "Immobile carries"],
+        counteredBy: ["CC chains", "Grouped enemies"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_6df478f073e8f9395f1fbf4d0cd4d26e.png"
+    },
+    "Karina": {
+        role: "Assassin",
+        difficulty: "Medium",
+        emblem: "Assassin - Killing Spree",
+        spell: "Retribution",
+        items: ["Magic Shoes", "Starlium Scythe", "Concentrated Energy", "Holy Crystal", "Divine Glaive", "Blood Wings"],
+        tips: "Ult resets on kills/assists. Dive backline, get reset, repeat. S1 gives immunity frames. Easy pentakill potential.",
+        counters: ["Squishy teams", "Low CC comps"],
+        counteredBy: ["CC chains", "Tanky frontline"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_c8d8e4d5c4d6e9a0f1b2c3d4e5f6a7b8.png"
+    },
+    "Selena": {
+        role: "Assassin/Support",
+        difficulty: "Very Hard",
+        emblem: "Mage - Impure Rage",
+        spell: "Flicker",
+        items: ["Magic Shoes", "Clock of Destiny", "Lightning Truncheon", "Holy Crystal", "Divine Glaive", "Immortality"],
+        tips: "Land arrows from fog for free kills. Abyssal form for burst, Elven form for poke. Vision control queen.",
+        counters: ["Immobile targets", "Face checkers"],
+        counteredBy: ["Purify", "Tanks in front"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9.png"
+    },
+
+    // ========== MORE FIGHTERS ==========
+    "Alucard": {
+        role: "Fighter",
+        difficulty: "Easy",
+        emblem: "Fighter - Festival of Blood",
+        spell: "Retribution",
+        items: ["Tough Boots", "War Axe", "Endless Battle", "Berserker's Fury", "Malefic Roar", "Immortality"],
+        tips: "Passive gives lifesteal. Chase with S1, lock with S2, sustain with Ult. Great for beginners.",
+        counters: ["Low burst teams", "Sustained fights"],
+        counteredBy: ["CC chains", "Anti-heal", "Burst"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6.png"
+    },
+    "Zilong": {
+        role: "Fighter/Assassin",
+        difficulty: "Easy",
+        emblem: "Assassin - Killing Spree",
+        spell: "Retribution",
+        items: ["Swift Boots", "Corrosion Scythe", "Demon Hunter Sword", "Berserker's Fury", "Malefic Roar", "Blade of Despair"],
+        tips: "Ult gives attack speed + immunity to slows. Flip enemies with S1. Split push king. Simple but effective.",
+        counters: ["Squishy backline", "Split push"],
+        counteredBy: ["CC", "Grouped enemies"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7.png"
+    },
+    "Ruby": {
+        role: "Fighter",
+        difficulty: "Medium",
+        emblem: "Fighter - Festival of Blood",
+        spell: "Flicker",
+        items: ["Tough Boots", "Haas's Claws", "War Axe", "Oracle", "Dominance Ice", "Immortality"],
+        tips: "Every skill lets you dash. S2 and Ult pull enemies. Insane lifesteal with proper build. CC machine.",
+        counters: ["Melee comps", "Low anti-heal"],
+        counteredBy: ["Baxia", "Sea Halberd", "Burst"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8.png"
+    },
+    "X.Borg": {
+        role: "Fighter",
+        difficulty: "Medium",
+        emblem: "Fighter - Festival of Blood",
+        spell: "Flicker",
+        items: ["Tough Boots", "War Axe", "Brute Force Breastplate", "Oracle", "Immortality", "Blade of Despair"],
+        tips: "Armor gives second HP bar. True damage when armor breaks. Ult pulls enemies and explodes. Zone control.",
+        counters: ["Melee comps", "Close range"],
+        counteredBy: ["Ranged kiters", "Burst before armor"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_1d4d7dfe38cb5e0fcfcf06b8af6b2103.png"
+    },
+    "Guinevere": {
+        role: "Fighter/Mage",
+        difficulty: "Medium",
+        emblem: "Mage - Impure Rage",
+        spell: "Flicker",
+        items: ["Arcane Boots", "Starlium Scythe", "Concentrated Energy", "Holy Crystal", "Divine Glaive", "Immortality"],
+        tips: "S2 knock-up enables Ult juggle. Can 100-0 squishies. S1 for poke/escape. High burst mage-fighter.",
+        counters: ["Squishy targets", "Low CC"],
+        counteredBy: ["Purify", "CC interrupts"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_0bb9349ff0a17747c126ea107a11e6cd.png"
+    },
+    "Aldous": {
+        role: "Fighter",
+        difficulty: "Medium",
+        emblem: "Fighter - Festival of Blood",
+        spell: "Flicker",
+        items: ["Tough Boots", "Endless Battle", "Thunder Belt", "Blade of Despair", "Malefic Roar", "Immortality"],
+        tips: "Stack S1 by last hitting. 500 stacks = one-punch man. Ult reveals and dives globally. Hypercarry late game.",
+        counters: ["Late game", "Squishy carries"],
+        counteredBy: ["Early aggression", "CC on landing"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_d4e5f678a9b0c1d2e3f4a5b6c7d8e9f0.png"
+    },
+
+    // ========== MORE MARKSMEN ==========
+    "Miya": {
+        role: "Marksman",
+        difficulty: "Easy",
+        emblem: "Marksman - Quantum Charge",
+        spell: "Flicker",
+        items: ["Swift Boots", "Windtalker", "Berserker's Fury", "Scarlet Phantom", "Malefic Roar", "Blade of Despair"],
+        tips: "Ult makes you invisible + removes CC. Attack speed stacks with passive. Late game monster. Position safe.",
+        counters: ["Late game", "No dive comp"],
+        counteredBy: ["Assassins", "Early aggression"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0.png"
+    },
+    "Bruno": {
+        role: "Marksman",
+        difficulty: "Medium",
+        emblem: "Marksman - Quantum Charge",
+        spell: "Flicker",
+        items: ["Swift Boots", "Berserker's Fury", "Endless Battle", "Blade of Despair", "Malefic Roar", "Windtalker"],
+        tips: "Catch the ball for crit boost. S1 stuns, S2 gives mobility. High burst MM. Position to catch rebounds.",
+        counters: ["Squishy teams", "Skill expression"],
+        counteredBy: ["Dive assassins", "CC chains"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1.png"
+    },
+    "Karrie": {
+        role: "Marksman",
+        difficulty: "Medium",
+        emblem: "Marksman - Quantum Charge",
+        spell: "Flicker",
+        items: ["Swift Boots", "Demon Hunter Sword", "Golden Staff", "Corrosion Scythe", "Windtalker", "Athena's Shield"],
+        tips: "True damage passive shreds tanks. DHS + Golden Staff is core. Tank buster queen. Position carefully.",
+        counters: ["Tanks", "HP stackers"],
+        counteredBy: ["Burst assassins", "Dive comps"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2.png"
+    },
+    "Lesley": {
+        role: "Marksman",
+        difficulty: "Medium",
+        emblem: "Marksman - Quantum Charge",
+        spell: "Flicker",
+        items: ["Swift Boots", "Berserker's Fury", "Endless Battle", "Blade of Despair", "Malefic Roar", "Windtalker"],
+        tips: "S1 gives camouflage + crit. Snipe with Ult globally. High burst single target. Stay max range.",
+        counters: ["Squishy backline", "Vision denial"],
+        counteredBy: ["Dive assassins", "Close range"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3.png"
+    },
+    "Granger": {
+        role: "Marksman",
+        difficulty: "Medium",
+        emblem: "Assassin - Killing Spree",
+        spell: "Retribution",
+        items: ["Tough Boots", "Sky Piercer", "Blade of Heptaseas", "Endless Battle", "Malefic Roar", "Blade of Despair"],
+        tips: "6th bullet does massive damage. Reload with S1. Ult snipes low HP. Jungler MM. Sky Piercer is core.",
+        counters: ["Squishy targets", "Isolated enemies"],
+        counteredBy: ["Tanky frontline", "Dive"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_c7e48401ff0d33cb91ff1b4a59b3c0cf.png"
+    },
+    "Hanabi": {
+        role: "Marksman",
+        difficulty: "Easy",
+        emblem: "Marksman - Quantum Charge",
+        spell: "Flicker",
+        items: ["Swift Boots", "Scarlet Phantom", "Berserker's Fury", "Windtalker", "Malefic Roar", "Blade of Despair"],
+        tips: "Passive shield blocks CC when full HP. Attacks bounce. Ult immobilizes. Late game hyper carry.",
+        counters: ["Grouped enemies", "Late game"],
+        counteredBy: ["Dive assassins", "Early aggression"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4.png"
+    },
+
+    // ========== MORE TANKS ==========
+    "Johnson": {
+        role: "Tank",
+        difficulty: "Medium",
+        emblem: "Tank - Concussive Blast",
+        spell: "Flicker",
+        items: ["Tough Boots", "Cursed Helmet", "Dominance Ice", "Athena's Shield", "Antique Cuirass", "Immortality"],
+        tips: "Ult transforms into car. Carry an ally! Crash into enemies for massive CC. Global rotation threat.",
+        counters: ["Grouped enemies", "Map rotations"],
+        counteredBy: ["Spread formation", "Dash heroes"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5.png"
+    },
+    "Gatotkaca": {
+        role: "Tank/Fighter",
+        difficulty: "Medium",
+        emblem: "Tank - Concussive Blast",
+        spell: "Flicker",
+        items: ["Tough Boots", "Cursed Helmet", "Dominance Ice", "Athena's Shield", "Blade Armor", "Immortality"],
+        tips: "Ult is global dive + taunt. S2 taunts. Low HP = more magic damage. Anti-physical tank.",
+        counters: ["Grouped enemies", "Physical teams"],
+        counteredBy: ["Magic damage", "Spread formation"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6.png"
+    },
+    "Belerick": {
+        role: "Tank",
+        difficulty: "Easy",
+        emblem: "Tank - Concussive Blast",
+        spell: "Vengeance",
+        items: ["Tough Boots", "Cursed Helmet", "Dominance Ice", "Athena's Shield", "Blade Armor", "Immortality"],
+        tips: "Passive reflects damage. Vengeance + passive = auto-win vs attack speed heroes. Ult immobilizes area.",
+        counters: ["Attack speed heroes", "Claude/Karrie"],
+        counteredBy: ["Skill-based damage", "Mages"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7.png"
+    },
+    "Uranus": {
+        role: "Tank",
+        difficulty: "Easy",
+        emblem: "Tank - Concussive Blast",
+        spell: "Revitalize",
+        items: ["Tough Boots", "Oracle", "Dominance Ice", "Athena's Shield", "Radiant Armor", "Immortality"],
+        tips: "Passive stacks regen. Unkillable without anti-heal. S2 slows and speeds. Annoying lane bully.",
+        counters: ["Sustained damage", "No anti-heal"],
+        counteredBy: ["Baxia", "Sea Halberd", "Burst"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8.png"
+    },
+    "Baxia": {
+        role: "Tank",
+        difficulty: "Medium",
+        emblem: "Tank - Concussive Blast",
+        spell: "Flicker",
+        items: ["Tough Boots", "Dominance Ice", "Athena's Shield", "Antique Cuirass", "Radiant Armor", "Immortality"],
+        tips: "Passive REDUCES enemy healing by 50%. Counter-pick vs sustain. S2 spin = map mobility. Anti-heal tank.",
+        counters: ["Sustain heroes (Yu Zhong, Uranus, Estes)"],
+        counteredBy: ["Burst damage", "Kiting"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_22474dd14312ea67d5d2caa742bff2ec.png"
+    },
+    "Lolita": {
+        role: "Tank/Support",
+        difficulty: "Hard",
+        emblem: "Tank - Concussive Blast",
+        spell: "Flicker",
+        items: ["Tough Boots", "Dominance Ice", "Athena's Shield", "Antique Cuirass", "Radiant Armor", "Immortality"],
+        tips: "S2 BLOCKS all projectiles. Counter to all MMs and skill-shot mages. Ult stuns in a huge area.",
+        counters: ["Projectile heroes (Pharsa, Beatrix, Novaria)"],
+        counteredBy: ["Melee fighters", "Non-projectile"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9.png"
+    },
+    "Akai": {
+        role: "Tank",
+        difficulty: "Medium",
+        emblem: "Tank - Concussive Blast",
+        spell: "Flicker",
+        items: ["Tough Boots", "Dominance Ice", "Athena's Shield", "Antique Cuirass", "Blade Armor", "Immortality"],
+        tips: "Ult pins enemies to walls. S1 jump + S2 mark combo. Wall mechanics master. Force enemies into corners.",
+        counters: ["Near walls", "Single target"],
+        counteredBy: ["Open areas", "Purify"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0.png"
+    },
+
+    // ========== MORE MAGES ==========
+    "Pharsa": {
+        role: "Mage",
+        difficulty: "Medium",
+        emblem: "Mage - Impure Rage",
+        spell: "Flicker",
+        items: ["Demon Shoes", "Clock of Destiny", "Lightning Truncheon", "Holy Crystal", "Divine Glaive", "Blood Wings"],
+        tips: "Fly over terrain with bird. Ult bombs a huge area 4 times. Zone control queen. Stay far back.",
+        counters: ["Grouped enemies", "Immobile teams"],
+        counteredBy: ["Dive assassins", "Lolita"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1.png"
+    },
+    "Yve": {
+        role: "Mage",
+        difficulty: "Hard",
+        emblem: "Mage - Impure Rage",
+        spell: "Flicker",
+        items: ["Demon Shoes", "Clock of Destiny", "Lightning Truncheon", "Ice Queen Wand", "Holy Crystal", "Divine Glaive"],
+        tips: "Ult covers massive area, aim with cursor. Zone denial goddess. S1/S2 stack marks for damage/slow.",
+        counters: ["Grouped enemies", "Objective fights"],
+        counteredBy: ["Dive assassins", "Fanny/Ling"],
+        img: "https://akmweb.youngjoygame.com/web/madmin/image/a5287c3bf2d77b64314528d437ec365b.png"
+    },
+    "Lunox": {
+        role: "Mage",
+        difficulty: "Hard",
+        emblem: "Mage - Impure Rage",
+        spell: "Flicker",
+        items: ["Demon Shoes", "Clock of Destiny", "Holy Crystal", "Divine Glaive", "Concentrated Energy", "Blood Wings"],
+        tips: "Dark Ult = invincible + damage. Light Ult = heal. Manage order/chaos stacks. High skill cap mage.",
+        counters: ["Sustained fights", "Dive comps (with Light Ult)"],
+        counteredBy: ["Burst during Light form", "CC chains"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2.png"
+    },
+    "Lylia": {
+        role: "Mage",
+        difficulty: "Medium",
+        emblem: "Mage - Impure Rage",
+        spell: "Flicker",
+        items: ["Demon Shoes", "Clock of Destiny", "Glowing Wand", "Ice Queen Wand", "Holy Crystal", "Divine Glaive"],
+        tips: "Ult rewinds time (HP and position). Gloom (S2) does stacking damage. Unkillable if Ult is up.",
+        counters: ["Sustained fights", "Low burst"],
+        counteredBy: ["One-shot burst", "CC before Ult"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_bd89e9f00f56e708f4c9adecf0c57c64.png"
+    },
+    "Vale": {
+        role: "Mage",
+        difficulty: "Medium",
+        emblem: "Mage - Lethal Ignition",
+        spell: "Flicker",
+        items: ["Arcane Boots", "Clock of Destiny", "Lightning Truncheon", "Holy Crystal", "Divine Glaive", "Blood Wings"],
+        tips: "Choose skill upgrades at level 4, 8, 12. CC path or Damage path. Ult knockup + burst is deadly.",
+        counters: ["Grouped enemies", "Immobile teams"],
+        counteredBy: ["Dive assassins", "Long range"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3.png"
+    },
+    "Alice": {
+        role: "Mage/Tank",
+        difficulty: "Medium",
+        emblem: "Mage - Impure Rage",
+        spell: "Flicker",
+        items: ["Demon Shoes", "Clock of Destiny", "Concentrated Energy", "Holy Crystal", "Divine Glaive", "Winter Crown"],
+        tips: "Stack orbs from minions for HP. Ult drains HP in area. Dive mage. Gets tankier as game goes on.",
+        counters: ["Melee comps", "Sustained fights"],
+        counteredBy: ["Kiting", "Anti-heal", "Burst"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4.png"
+    },
+    "Cecilion": {
+        role: "Mage",
+        difficulty: "Medium",
+        emblem: "Mage - Impure Rage",
+        spell: "Flicker",
+        items: ["Demon Shoes", "Clock of Destiny", "Lightning Truncheon", "Holy Crystal", "Divine Glaive", "Blood Wings"],
+        tips: "Infinite scaling mana = infinite scaling damage. S1 spam. Late game monster. Pair with Carmilla for Ult combo.",
+        counters: ["Late game", "Grouped enemies"],
+        counteredBy: ["Early aggression", "Dive assassins"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_a66ec3b1b8036839538cc0ade8aff50c.jpg"
+    },
+
+    // ========== MORE SUPPORTS ==========
+    "Rafaela": {
+        role: "Support",
+        difficulty: "Easy",
+        emblem: "Support - Focusing Mark",
+        spell: "Flicker",
+        items: ["Demon Shoes", "Fleeting Time", "Dominance Ice", "Athena's Shield", "Oracle", "Immortality"],
+        tips: "S1 slows and reveals. S2 heals and speeds. Ult stuns in a line. Simple but effective support.",
+        counters: ["Poke comps", "Sustained fights"],
+        counteredBy: ["Baxia", "Anti-heal", "Burst"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5.png"
+    },
+    "Kaja": {
+        role: "Support/Fighter",
+        difficulty: "Medium",
+        emblem: "Support - Focusing Mark",
+        spell: "Flicker",
+        items: ["Tough Boots", "Fleeting Time", "Dominance Ice", "Athena's Shield", "Antique Cuirass", "Immortality"],
+        tips: "Ult SUPPRESSES and drags enemy. Pick tool. Can't be purified! Flicker + Ult for surprise catches.",
+        counters: ["Priority targets", "Immobile carries"],
+        counteredBy: ["Grouped enemies", "Peel"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6.png"
+    },
+    "Carmilla": {
+        role: "Support/Tank",
+        difficulty: "Medium",
+        emblem: "Support - Focusing Mark",
+        spell: "Flicker",
+        items: ["Tough Boots", "Fleeting Time", "Dominance Ice", "Athena's Shield", "Antique Cuirass", "Immortality"],
+        tips: "Ult links enemies - damage to one hurts all! Pair with Cecilion for combo. S2 steals defense.",
+        counters: ["Grouped enemies", "Combo with AoE"],
+        counteredBy: ["Spread formation", "Single target"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_b7f2851b57e938c41ce32c00c685e0c8.jpg"
+    },
+    "Faramis": {
+        role: "Support/Mage",
+        difficulty: "Hard",
+        emblem: "Support - Focusing Mark",
+        spell: "Flicker",
+        items: ["Demon Shoes", "Fleeting Time", "Clock of Destiny", "Lightning Truncheon", "Holy Crystal", "Immortality"],
+        tips: "Ult REVIVES dead allies in the area! Game-changing teamfight Ult. S1 teleports to marked enemy.",
+        counters: ["Teamfights", "Objective contests"],
+        counteredBy: ["Split fights", "Killing Faramis first"],
+        img: "https://wsrv.nl/?url=akmweb.youngjoygame.com/web/madmin/image/977b95bbb8a5dc634d741bdd5bda3b2f.png"
+    },
+
+    // ========== MORE FIGHTERS ==========
+    "Hilda": {
+        role: "Fighter/Tank",
+        difficulty: "Easy",
+        emblem: "Tank - Concussive Blast",
+        spell: "Flicker",
+        items: ["Tough Boots", "War Axe", "Brute Force Breastplate", "Dominance Ice", "Athena's Shield", "Immortality"],
+        tips: "Hide in bush to stack passive and regen. Jump out with Ult for burst. Great roamer and ambusher.",
+        counters: ["Squishy mages", "Ambush potential"],
+        counteredBy: ["Sustained damage", "Kiting"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7.png"
+    },
+    "Balmond": {
+        role: "Fighter",
+        difficulty: "Easy",
+        emblem: "Fighter - Festival of Blood",
+        spell: "Retribution",
+        items: ["Tough Boots", "War Axe", "Brute Force Breastplate", "Oracle", "Dominance Ice", "Immortality"],
+        tips: "S2 spin for damage. Ult executes low HP enemies. Great for beginners. Simple and effective jungler.",
+        counters: ["Low HP targets", "Melee comps"],
+        counteredBy: ["Ranged kiters", "CC chains"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8.png"
+    },
+    "Freya": {
+        role: "Fighter",
+        difficulty: "Medium",
+        emblem: "Assassin - Killing Spree",
+        spell: "Flicker",
+        items: ["Tough Boots", "War Axe", "Berserker's Fury", "Endless Battle", "Malefic Roar", "Immortality"],
+        tips: "Ult gives wings + ranged attacks. Stack sacred orbs for burst. High single target damage.",
+        counters: ["Squishy targets", "1v1 duels"],
+        counteredBy: ["Kiting", "CC chains"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9.png"
+    },
+    "Martis": {
+        role: "Fighter",
+        difficulty: "Medium",
+        emblem: "Fighter - Festival of Blood",
+        spell: "Flicker",
+        items: ["Tough Boots", "War Axe", "Brute Force Breastplate", "Oracle", "Dominance Ice", "Immortality"],
+        tips: "S2 gives CC immunity during animation. Ult executes and resets on kill. Penta potential with resets.",
+        counters: ["Low HP targets", "Execute potential"],
+        counteredBy: ["Kiting", "High burst"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0.png"
+    },
+    "Silvanna": {
+        role: "Fighter/Mage",
+        difficulty: "Medium",
+        emblem: "Fighter - Festival of Blood",
+        spell: "Flicker",
+        items: ["Tough Boots", "War Axe", "Brute Force Breastplate", "Oracle", "Dominance Ice", "Immortality"],
+        tips: "Ult traps enemy in circle - they can't escape! S1 dash + stun. Anti-dash fighter.",
+        counters: ["Mobile heroes", "Single target lock"],
+        counteredBy: ["Purify", "Allies saving"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_743db67971d02b6a9a8065d9cedade23.png"
+    },
+    "Jawhead": {
+        role: "Fighter/Tank",
+        difficulty: "Medium",
+        emblem: "Tank - Concussive Blast",
+        spell: "Flicker",
+        items: ["Tough Boots", "War Axe", "Brute Force Breastplate", "Dominance Ice", "Athena's Shield", "Immortality"],
+        tips: "S2 throws enemies OR allies! Throw enemy carry into your team. Throw ally escape. Versatile roamer.",
+        counters: ["Priority targets", "Displacement"],
+        counteredBy: ["Heavy frontline", "CC chains"],
+        img: "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1.png"
     }
 }
+
